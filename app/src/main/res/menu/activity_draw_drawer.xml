@@ -10,9 +10,9 @@
             android:title="Home"
             android:icon="@drawable/home" />
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/phone_call"
+            android:title="Call Us" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"

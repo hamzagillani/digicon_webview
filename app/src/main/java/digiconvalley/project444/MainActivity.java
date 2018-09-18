@@ -92,7 +92,10 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.drawer_layout,
                     new Web_View()).commit();
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_phone) {
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.alrt,
+                    new Phone_call()).commit();
 
         } else if (id == R.id.nav_slideshow){
 
